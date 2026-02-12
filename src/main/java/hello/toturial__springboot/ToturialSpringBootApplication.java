@@ -13,7 +13,7 @@ public class ToturialSpringBootApplication {
         SpringApplication.run(ToturialSpringBootApplication.class, args);
     }
 
-    @GetMapping()
+    @GetMapping("/")
     public String home() {
         return "Hello MengK";
     }
