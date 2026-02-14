@@ -15,6 +15,6 @@ public class ToturialSpringBootApplication {
 
     @GetMapping("/home")
     public String home() {
-        return "Hello";
+        return "index";
     }
 }
